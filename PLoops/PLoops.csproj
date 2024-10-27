@@ -87,6 +87,12 @@
     <EmbeddedResource Include="frmExercicio2.resx">
       <DependentUpon>frmExercicio2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmExercicio3.resx">
+      <DependentUpon>frmExercicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExercicio4.resx">
+      <DependentUpon>frmExercicio4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

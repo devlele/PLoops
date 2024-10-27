@@ -12,9 +12,29 @@ namespace PLoops
 {
     public partial class frmExercicio3 : Form
     {
+        string texto;
+        string textoInvertido;
+        string textoMinimizado;
+
         public frmExercicio3()
         {
             InitializeComponent();
+        }
+
+        private void btnPalindromo_Click(object sender, EventArgs e)
+        {
+            texto = txtPalindromo.Text;
+            textoMinimizado = texto.Replace(" ","").ToLower();
+            textoInvertido = new string(textoMinimizado.Reverse().ToArray());
+
+            if(textoMinimizado == textoInvertido)
+            {
+                MessageBox.Show("É um palindromo");
+            }
+            else
+            {
+                MessageBox.Show("Não é um palindromo");
+            }
         }
     }
 }
